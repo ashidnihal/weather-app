@@ -32,7 +32,7 @@ To get a local copy of the project up and running, follow these steps.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/ashidnihal/weather-app.git
    ```
    Replace `yourusername` with your actual GitHub username.
 
