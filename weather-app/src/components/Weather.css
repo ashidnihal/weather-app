@@ -1,0 +1,116 @@
+body {
+    
+    margin: 0; 
+    height: 100vh;
+    
+  }
+.app-wrapper {
+    background-color: #1e2a38;
+    color: white;
+    min-height: 80vh;
+    padding: 20px;
+    max-width: 1000px;
+    
+    border-radius: 15px;
+    
+  }
+  
+  
+  .input-bar-col {
+    padding-right: 0;
+    
+  }
+  
+  .button-col {
+    padding-left: 0;
+  }
+  
+  .search-bar {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .search-button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 1.1rem;
+  }
+  
+
+  .current-weather {
+    padding: 40px; 
+  }
+  
+  .current-weather h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-left:55px;
+
+  }
+  
+  .current-weather h1 {
+    font-size: 5rem;
+    margin: 10px 0;
+    margin-left:55px;
+
+
+  }
+  .current-weather p {
+    margin-left:55px;
+
+  }
+  
+ 
+  
+  .weekly-forecast {
+    background-color: #2e3a49;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    
+    
+  }
+
+  .air-conditions {
+    background-color: #2e3a49;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .air-conditions h6 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .forecast-icon {
+    width: 40px;
+    height: 40px;
+  
+}
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.weekly-forecast table{
+  background-color: #2e3a49!;
+  color: white;
+}
+@media (max-width: 768px) {
+  .app-wrapper {
+      margin-top: 0; 
+      
+  }
+}
+@media (min-width: 768px) {
+  .app-wrapper {
+    margin-top: 28px;
+  }
+}
